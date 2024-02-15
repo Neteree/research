@@ -21,3 +21,9 @@ combo = food + ", " + drink + " and " + side
 print(full_name)
 # Outputs the value of combo
 print(combo)
+# Outputs the value of "1" as an integer plus the value of "2" as an integer
+print(int("1") + int("2"))
+# Outputs the value of "3.2430" as an float minus the value of "0.1415" as an float
+print(float("3.2430") - float("0.1415"))
+# Outputs the string value of 0.2 concatenated with 718 converted into a float and multiplied by 10
+print(float(str(0.2) + str(718)) * 10)
