@@ -46,7 +46,7 @@ is_greater_or_equal_to = 1 >= 2
 # Outputs the value of is_greater_or_equal_to which is False
 print(is_greater_or_equal_to)
 
-# Declares and initialises is_less_than with 1 < 2 which evaluates to True
+# Declares and initialises is_less_than with 1 <= 2 which evaluates to True
 is_less_or_equal_to = 1 <= 2
 # Outputs the value of is_less_or_equal_to which is True
 print(is_less_or_equal_to)
@@ -101,13 +101,13 @@ isTrue = False or False
 # Outputs the value of isTrue which is False
 print(isTrue)
 
-# Declares the variable isAlive and initialises with False if the random Integer is 0 and True if 1  
-isAlive = bool(random.randint(0, 1))
-# Outputs the value that is stored in isAlive that is True if the random integer that was converted from 1 and False if it was converted from 2
-print(isAlive)
+# Declares the variable is_alive and initialises with False if the random Integer is 0 and True if 1  
+is_alive = bool(random.randint(0, 1))
+# Outputs the value that is stored in is_alive that is True if the random integer that was converted from 1 and False if it was converted from 2
+print(is_alive)
 
-# Outputs "You are alive" if isAlive has evaluated to true and "You are not alive" otherwise
-if isAlive:
+# Outputs "You are alive" if is_alive has evaluated to true and "You are not alive" otherwise
+if is_alive:
     print("You are alive")
 else:
     print("You are not alive")
