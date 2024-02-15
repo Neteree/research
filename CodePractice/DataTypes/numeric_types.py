@@ -13,7 +13,7 @@ integerC = integerA * integerB
 # Assigns integerC the quotient of integerA and integerB
 integerC = integerA / integerB
 # Assigns integerC the modulo of integerA and integerB
-integerC = integerA % integerB;
+integerC = integerA % integerB
 
 # Outputs the current value of integerA
 print(integerA)
