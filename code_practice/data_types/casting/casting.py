@@ -23,7 +23,7 @@ print(height)
 print(character_name)
 # The float value of the variable version is 2.0 so 2.0 is outputted
 print(version)
-# Casts each number to its corresponding character and concatenates them into the string "Hello, World!" which is then outputed
+# Casts each number to its corresponding character string and concatenates them into the string "Hello, World!" which is then outputed
 print(chr(72) + chr(101) + chr(108) + chr(108) + chr(111) + chr(44) + chr(32) + chr(87) + chr(111) + chr(114) + chr(108) + chr(100) + chr(33))
-# Casts each character to its corresponding number, adds them and then outputs the sum
+# Casts each character string to its corresponding number, adds them and then outputs the sum
 print(ord("H") + ord("e") + ord("l") + ord("l") + ord("l") + ord("o") + ord(",") + ord(" ") + ord("W") + ord("o") + ord("r") + ord("l") + ord("d") + ord("!"))
