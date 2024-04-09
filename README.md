@@ -1,6 +1,6 @@
 # research
 
-I have put all examples of my practice/code into the practice_code folder and
+I have put all examples of my practice/code into the code_practice folder and
 within there you will be able to find more folders that are related to different modules
 of this paper/course to help in assisting finding specific kinds of code more easily. 
 I believe that pratice speaks louder than just words so I have tried
